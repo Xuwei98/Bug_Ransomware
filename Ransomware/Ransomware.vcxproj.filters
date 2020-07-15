@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{69d78e1b-d004-4485-b21e-7b802a8dc693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{e1cb9a38-df2d-46ad-8015-2486ba4750b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\IOCP">
+      <UniqueIdentifier>{baa367d2-e8e8-4990-a0fe-426b88805cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\IOCP">
+      <UniqueIdentifier>{0ed88d02-06a5-4487-937d-af582953e57a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BranchFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RansomFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RunasAdmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CJsonObject.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWallpaper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP\CopyFiles.h">
+      <Filter>头文件\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP\Exception.h">
+      <Filter>头文件\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP\IoPool.h">
+      <Filter>头文件\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP\OvlFile.h">
+      <Filter>头文件\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP\Util.h">
+      <Filter>头文件\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP\winUtil.h">
+      <Filter>头文件\IOCP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BranchFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CJsonObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RansomFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ransomware.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RunasAdmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWallpaper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP\OvlFile.cpp">
+      <Filter>源文件\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP\CopyFiles.cpp">
+      <Filter>源文件\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP\IoPool.cpp">
+      <Filter>源文件\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP\winUtil.cpp">
+      <Filter>源文件\IOCP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
